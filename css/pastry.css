@@ -1,0 +1,73 @@
+#content{
+	width:1423px;
+	height:920px;
+	margin-top: -60px;
+}
+#content>div{
+	width:960px;
+	margin: 0px auto;
+}
+#content>div h1{
+	color:#6f3f52;
+	font-size: 24px;
+	text-indent: 0.5em;
+	font-style: oblique;
+}
+#content>div ul{
+	list-style: none;
+	width:960px;
+	height:920px;
+	overflow: hidden;
+}
+#content>div ul span{
+	display: block;
+	width:200px;
+	font-size: 14px;
+	color:#704153;
+	font-style: oblique;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+#content>div ul li{
+	float:left;
+	padding-left: 14px;
+	padding-bottom: 15px;
+	padding-top:20px;
+	position: relative;
+}
+#content>div ul li a{
+	display: block;
+	width:450px;
+	height: 220px;
+	color:#cf8fa7;
+}
+#content p{
+	font-size: 18px;
+	line-height: 23px;
+	font-style: oblique;
+}
+#content>div ul li a>div{
+	-webkit-transition:all 1s;
+	-webkit-transform: perspective(600px);
+	-webkit-backface-visibility: hidden;
+}
+#content>div ul li a div:first-child{
+	width:450px;
+	height: 220px;
+	position: absolute;
+	z-index: 2;
+}
+#content>div ul li a:hover div:first-child{
+	-webkit-transform:rotateY(180deg);
+}
+#content>div ul li a:hover div:last-child{
+	-webkit-transform:rotateY(0deg);
+}
+#content>div ul li a:hover div:last-child{
+}
+#content>div ul li a div:last-child{
+	position:absolute;
+	top:20px;
+	-webkit-transform:rotateY(-180deg);
+}
+

@@ -1,0 +1,130 @@
+#content{
+	width:1423px;
+	height:940px;
+	margin-top: -60px;
+}
+#content>div{
+	width:960px;
+	height: 940px;
+	margin: 0px auto;
+}
+
+/*左半边部分*/
+#con-left{
+	width:692px;
+	height: 900px;
+	float: left;
+}
+#con-left ul{
+	list-style: none;
+}
+#con-left ul li{
+	height: 450px;
+	background: url(img/bg-post-header.gif) no-repeat;
+}
+#con-left ul li:nth-child(1) span{
+	display: inline-block;
+	color:white;
+	font-weight: 18px;
+	height: 30px;
+	margin-left: 32px;
+	vertical-align: top;
+	padding-top:16px;
+}
+#con-left ul li a{
+	text-decoration: none;
+	display: inline-block;
+	width:20px;
+	height: 20px;
+}
+#con-left ul li h1{
+	width:660px;
+	background-color: white;
+	padding-top: 15px;
+	margin-left: 31px;
+	margin-top: 10px;
+	text-indent: 1em;
+	color:#ff2296;
+	font-weight: normal;
+}
+#con-left ul li p{
+	padding-left: 24px;
+	width:636px;
+	margin-left: 31px;
+	background-color: white;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+.left-a1{
+	display:inline-block;
+	margin-left:10px;
+	color:#d1d1d1;
+}
+.left-a1:hover{
+	color:#DF4B9F;
+}
+#con-left ul li:nth-child(2) span{
+	display: inline-block;
+	color:white;
+	font-weight: 18px;
+	height: 30px;
+	margin-left: 32px;
+	vertical-align: top;
+	padding-top:16px;
+}
+#con-left>a{
+	text-decoration: none;
+	margin-top:10px;
+	display:inline-block;
+	margin-left: 52px;
+	color:#d1d1d1;
+	font-size: 14px;
+}
+#left-a2:hover{
+	color:#a86e89;
+}
+
+
+/*右半边部分*/
+#con-right{
+	width:200px;
+	height: 900px;
+	float: left;
+}
+#con-right h2{
+	color:#84284d;
+	padding-top: 10px;
+	padding-left: 20px; 
+	padding-bottom: 10px;
+}
+#con-right ul{
+	width: 200px;
+	height: 500px;
+	font-size: 20px;
+	list-style: none;
+	margin-left: 20px;
+}
+#con-right ul li{
+	font-size: 16px;
+	padding-left: 40px;
+}
+#con-right ul>a{
+	font-size: 18px;
+	text-decoration:none;
+	color:#ff2296;
+	padding-left: 12px;
+}
+#con-right ul>a:hover{
+	color:#cf8fa7;
+}
+#con-right ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	color:#765d5e;
+}
+#con-right ul li a:hover{
+	color:#cf8fa7;
+}

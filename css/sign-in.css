@@ -1,0 +1,68 @@
+/*content div*/
+#content{
+	width:1423px;
+	height: 392px;
+	background-color: 
+}
+#content>div{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content>div form>div{
+	width:430px;
+	height: 250px;
+	border: 1px solid #c2c2c2;
+	border-radius: 10px;
+	margin: 0px auto;
+	background-color: white;
+}
+#content>div form>div span{
+	display: block;
+	width:80px;
+	height: 40px;
+	text-indent: 1em;
+	font-size: 25px;
+	color:#8b2868;
+	line-height: 100px;
+	font-style:oblique;
+	font-weight: bolder;
+}
+#content>div form>div table{
+	width:430px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	color:#636363;
+	text-align: right;
+}
+#content>div form>div table tr{
+	height: 40px;
+	text-align: left;
+	border-spacing: 0px;
+}
+#content>div form>div table tr td:first-child{
+	text-align: right;
+}
+#content>div form>div table tr td{
+	margin-left: 20px;
+}
+#content>div form>div table input[type='text']{
+	width:300px;
+	border:1px solid #e0e0e0;
+	padding-left: 5px;
+}
+#content>div form>div table input[type='password']{
+	width:300px;
+	height: 30px;
+	padding-left: 5px;
+	border:1px solid #e0e0e0;
+}
+#content>div form>div table input[type='submit']{
+	width:100px;
+	height: 30px;
+	border: 1px solid #a96580;
+	background-color: #fad6dd;
+	border-radius: 5px;
+}
